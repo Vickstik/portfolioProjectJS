@@ -37,9 +37,18 @@ li {
     text-decoration: none;
     white-space: nowrap;
 }
-.menu a:hover {
+
+.navi a:hover {
     color: #bbb;
 }
+
+#current{
+    color: midnightblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
 
 h1 {
     color: midnightblue
@@ -48,4 +57,9 @@ h1 {
 
 ul {
     list-style: none;
+}
+
+#projects img {
+    border: 3px solid midnightblue;
+    height: 400px;
 }
