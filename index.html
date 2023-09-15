@@ -9,13 +9,13 @@
     <body>
     <!-- Header-->
         <header>
-            <div class="">
+            <div class="page-title">
                 <h1>Vicki's Portfolio</h1>
             </div>
 
     <!--Navbar section-->            
             <nav class="navbar">
-              <ul class="navi">
+              <ul class="navlist">
                 <li ><a id="current" href="#">Home</a></li>
                 <li><a href="projects">Projects</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
@@ -25,42 +25,44 @@
 
     <!-- Main -->
         <main>
-          <div id="about">
-            <h2>About</h2>
-              <div id="welcome">
-                <h2>Welcome to my Project Portfolio Site!</h2>
-              </div>
-              <div id="photo">
-                <img src="./resources/VickiLucasQB.PNG" alt="A Photo of Me">
-              </div>
-              <div id="whoami">
-                <h2>My name is Vicki Lucas</h2>
-                <h3>I'm a new web developer undertaking the full stack Engineer Career Path on Codecademy. I hope to get a job in the industry soon!</h3>
-              </div>
-          </div>
+          <div class="intro">
+            <div id="welcome">
+              <h2>Welcome to my Project Portfolio Site!</h2>
             </div>
-        <div id="projects">
-          <h2>My Projects</h2>
-          <div>
-          <h3>Development Project</h3>
-          <img src="./resources/devproj.PNG" alt="">
-          <h4>This was one of the first projects made in my local enviroment using HTML and CSS.</h4>
-        </div>
-          <div>
-          <h3>Flexbox Project</h3>
-          <img src="./resources/flexbox.PNG" alt="">
-          <h4>This Project used knowledge of Flexbox to design a website with HTML and CSS with elements styled with Flexbox.</h4>
-        </div>
-        <div>
-          <h3>Mixed Messages JavaScript</h3>
-          <img src="./resources/mixedmes.PNG" alt="">
-          <h4>One of the latest projects, the first time using JavaScript in my local environment to build a random message generator.</h4>
-        </div>
+            <div id="photo">
+              <img src="./resources/VickiLucasQB.PNG" alt="A Photo of Me">
+            </div>
+            <div id="whoami">
+              <h2>My name is Vicki Lucas</h2>
+              <h3>I'm a new web developer undertaking the full stack Engineer Career Path on Codecademy. I'm hoping to get a job in the industry soon!</h3>
+            </div>
+          </div>
+
+        <div id="proj-container">
+          <h2>Some Of My Projects</h2>
+          <div id="projects">
+            <div id="proj1">
+              <h3 class="two">Development Project</h3>
+              <img class="one" src="./resources/devproj.PNG" alt="">
+              <h4 class="three">This was one of the first projects made in my local enviroment using HTML and CSS.</h4>
+            </div>
+            <div id="proj2">
+              <h3 class="five">Flexbox Project</h3>
+              <img class="four" src="./resources/flexbox.PNG" alt="">
+              <h4 class="six">This Project used knowledge of Flexbox to design a website with HTML and CSS with elements styled with Flexbox.</h4>
+            </div>
+            <div id="proj3">
+              <h3 class="eight">Mixed Messages JavaScript</h3>
+              <img class="seven" src="./resources/mixedmes.PNG" alt="">
+              <h4 class="nine">One of the latest projects, the first time using JavaScript in my local environment to build a random message generator.</h4>
+            </div>
+          </div>
         </div>
       </main>
+
     <!-- Footer-->
-        <footer><div class="one"><p>Get in touch!</p></div><div class="two"></div></footer>
+        <footer><div><button><a href="#">Top</a></button></div></footer>
         
-        <script></script>
+    <!-- <script></script> -->
     </body>
 </html>
