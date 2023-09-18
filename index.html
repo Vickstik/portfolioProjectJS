@@ -17,7 +17,16 @@
             <nav class="navbar">
               <ul class="navlist">
                 <li ><a id="current" href="#">Home</a></li>
-                <li><a href="projects">Projects</a></li>
+                <li><a href="#projects">Projects</a>
+                  <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="dropbtn arrow down"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                    <a href="#proj1">DevProject</a>
+                    <a href="#proj2">Flexbox</a>
+                    <a href="#proj3">JavaScript</a>
+                  </div>
+                  </div>
+                </li>
                 <li><a href="contact.html">Contact Me</a></li>
               </ul>
             </nav>
@@ -61,8 +70,12 @@
       </main>
 
     <!-- Footer-->
-        <footer><div><button><a href="#">Top</a></button></div></footer>
+        <footer>
+          <div><button class="button"><a href="#">Top</a></button></div>
+        </footer>
         
-    <!-- <script></script> -->
+    <script src="./script.js"></script>
     </body>
 </html>
+
+
